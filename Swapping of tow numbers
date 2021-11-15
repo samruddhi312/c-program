@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    double a,b;
+    printf("enter value of a:");
+    scanf("%lf",&a);//accept value of a from user:
+    printf("enter value if b:");
+    scanf("%lf",&b);//accept value of b form user:
+    //swaping a no :
+    a=a-b;
+    b=a+b;
+    a=b-a;
+    printf("after swaping the value of a is,a=%lf\n",a);
+    printf("after swaping the value of b is ,b=%lf",b);
+    
+
+    return 0;
+}
